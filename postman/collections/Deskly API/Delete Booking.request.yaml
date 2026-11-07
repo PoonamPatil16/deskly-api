@@ -1,0 +1,10 @@
+$kind: http-request
+name: Delete Booking
+order: 7000
+url: 'http://localhost:4000/bookings/bkg_seed01'
+method: DELETE
+headers:
+  X-API-Key: demo-key
+pathVariables:
+  - key: bookingId
+    value: bkg_seed01

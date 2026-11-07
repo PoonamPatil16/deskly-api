@@ -1,0 +1,10 @@
+$kind: http-request
+name: Get Booking
+order: 6000
+url: 'http://localhost:4000/bookings/bkg_seed01'
+method: GET
+headers:
+  X-API-Key: demo-key
+pathVariables:
+  - key: bookingId
+    value: bkg_seed01
